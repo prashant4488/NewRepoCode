@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- website name -->
+  <title>SpideyWeb</title>
+  <!-- Favicon - website's top left side small icon link-->
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+  <!-- Boxicons - footer icons link-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- navbar, hero & footer css link-->
+  <link rel="stylesheet" href="/css/nav&footr.css">
+  <!-- gallery, features, about & contact sections css link-->
+  <link rel="stylesheet" href="/css/section.css">
+  <!-- In contact section, form css link -->
+  <link rel="stylesheet" href="/css/form.css">
+  <!-- media query css link -->
+  <link rel="stylesheet" href="/css/media.css">
+
+  <style>
+    .bg {
+      background: url(/img/hero.jpg);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg2 {
+      background-color: rgba(255, 0, 0, 0.505);
+      background-size: cover;
+      width: 100%;
+      height: 50vh;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li class="dropdown"> <a href="#gallery">Gallery</a>
+        <!-- dropdown-list(if click gallery menu) -->
+        <ul class="dropdown-list">
+          <div class="drop-flex">
+            <div>
+              <li><a href="">Family</a></li>
+              <li><a href="">Friend</a></li>
+              <li><a href="">Neighbour</a></li>
+            </div>
+            <div>
+              <li><a href="">Memories</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Celebration</a></li>
+            </div>
+            <div>
+              <li><a href="">Happy Moment</a></li>
+              <li><a href="">Sad Moment</a></li>
+              <li><a href="">Excited Moment</a></li>
+            </div>
+            <div>
+              <li><a href="">Tour</a></li>
+              <li><a href="">Picnic</a></li>
+              <li><a href="">Festival</a></li>
+            </div>
+          </div>
+        </ul>
+      </li>
+      <li class="dropdown feature-drop"><a href="#features">Features</a>
+        <!-- dropdown-list(if click features menu) -->
+        <ul class="dropdown-list">
+          <div class="drop-flex2N">
+            <div>
+              <li><a href="">Family</a></li>
+              <li><a href="">Friend</a></li>
+              <li><a href="">Neighbour</a></li>
+            </div>
+            <div>
+              <li><a href="">Memories</a></li>
+              <li><a href="">Events</a></li>
+              <li><a href="">Celebration</a></li>
+            </div>
+          </div>
+      </li>
+    </ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- VIDEO SECTION -->
+  <!-- <video id="myVideo" src="/img/spidey.mp4" muted loop autoplay onclick="this.paused ? this.play() : this.pause();"></video> -->
+  <video id="myVideo" src="/img/spidey.mp4" muted loop autoplay onclick="this.paused ? this.play() : this.pause();">
+    <source src="/img/spidey.mp4" type="video/mp4">
+  </video>
+  <div class="content" style="width: 100%;">
+    <!-- video heading -->
+    <h1>Spiderman:<span style="color: white">-</span> Miles Morals</h1>
+    <!-- video para -->
+    <div class="vid-desc-flex">
+      <div class="para">
+        <p class="laptop" style="text-align: center; font-size: 30px;">"Everyone keeps telling me how my story is supposed to go. 
+         <br>Nah... I'ma do my own thing.
+        </p>
+        <p class="mobile">"Miles, being Spider-Man is a sacrifice."</p>
+      </div>
+      <!-- video play/pause btn -->
+      <div class="btn">
+        <span id="myBtn" onclick="myFunction()" style="font-size: 40px;">
+          <i class='bx bx-pause' style="font-size: 40px;"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="bg">
+    <div class="bg2" style="display: flex; justify-content: center; align-items: center;">
+      <p style="text-align: center; font-size: 25px; color: white; width: 80%; font-weight: bolder;">
+        Miles Morales was created by Brian Michael Bendis and Sara Pichelli in ULTIMATE FALLOUT (2011) #4, set in the
+        Ultimate
+        Marvel Universe.
+        <br>In this world, Aaron steals the genetically engineered spider, developed from Peter Parker's blood, and
+        Miles is bitten by it while visiting his uncle.
+      </p>
+    </div>
+  </div>
+
+  <!-- GALLERY SECTION -->
+  <div id="gallery" class="section">
+    <h4>Gallery</h4>
+    <div class="flex">
+      <!-- paragraph div -->
+      <div class="para">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium facilis qui, temporibus quam,
+          mollitia deleniti aliquid beatae quo harum dolorem nostrum pariatur, maxime tempore quaerat fuga amet earum
+          quia voluptate ipsa. Est reprehenderit aut veniam quam nihil eaque mollitia dolores atque fugit, recusandae
+          porro fuga nemo facilis vitae, maiores aperiam ducimus temporibus cupiditate aliquid molestiae animi? Atque
+          magni, ad earum at aut blanditiis provident ab, adipisci accusantium beatae, necessitatibus facilis possimus
+          magnam libero illum dolor molestiae aperiam enim assumenda veniam. Ad voluptate, reprehenderit non veritatis
+          ullam rem magnam sunt id tempora ea earum odit nulla ducimus necessitatibus incidunt dolore laboriosam porro
+          eligendi aperiam excepturi tempore architecto obcaecati. Repellat reiciendis consequuntur, porro corporis,
+          officiis eaque cumque quidem consectetur fugiat excepturi nulla incidunt iusto in ab beatae magnam sapiente
+          ullam rem magnam sunt id tempora ea earum odit nulla ducimus necessitatibus incidunt dolore laboriosam porro
+          eligendi aperiam excepturi tempore architecto obcaecati. Repellat reiciendis consequuntur, porro corporis,
+          officiis eaque cumque quidem consectetur fugiat excepturi nulla incidunt iusto in ab beatae magnam sapiente
+        </p>
+      </div>
+      <!-- image div-->
+      <div class="img">
+        <img src="/img/section.jpeg">
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES SECTION -->
+  <div id="features" class="section">
+    <h4>Features</h4>
+    <div class="flex">
+      <!-- image div-->
+      <div class="img">
+        <img src="/img/section.jpeg">
+      </div>
+      <br class="laptop-hideBr">
+      <!-- paragraph div-->
+      <div class="para">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium facilis qui, temporibus quam,
+          mollitia deleniti aliquid beatae quo harum dolorem nostrum pariatur, maxime tempore quaerat fuga amet earum
+          quia voluptate ipsa. Est reprehenderit aut veniam quam nihil eaque mollitia dolores atque fugit, recusandae
+          porro fuga nemo facilis vitae, maiores aperiam ducimus temporibus cupiditate aliquid molestiae animi? Atque
+          magni, ad earum at aut blanditiis provident ab, adipisci accusantium beatae, necessitatibus facilis possimus
+          magnam libero illum dolor molestiae aperiam enim assumenda veniam. Ad voluptate, reprehenderit non veritatis
+          ullam rem magnam sunt id tempora ea earum odit nulla ducimus necessitatibus incidunt dolore laboriosam porro
+          eligendi aperiam excepturi tempore architecto obcaecati. Repellat reiciendis consequuntur, porro corporis,
+          officiis eaque cumque quidem consectetur fugiat excepturi nulla incidunt iusto in ab beatae magnam sapiente
+          ducimus, similique rerum eum delectus! Consequatur, nam suscipit, fugit neque dicta quas nostrum officiis
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT SECTION -->
+  <div id="about" class="section">
+    <h4>About</h4>
+    <div class="flex">
+      <!-- paragraph div-->
+      <div class="para">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium facilis qui, temporibus quam,
+          mollitia deleniti aliquid beatae quo harum dolorem nostrum pariatur, maxime tempore quaerat fuga amet earum
+          quia voluptate ipsa. Est reprehenderit aut veniam quam nihil eaque mollitia dolores atque fugit, recusandae
+          porro fuga nemo facilis vitae, maiores aperiam ducimus temporibus cupiditate aliquid molestiae animi? Atque
+          magni, ad earum at aut blanditiis provident ab, adipisci accusantium beatae, necessitatibus facilis possimus
+          magnam libero illum dolor molestiae aperiam enim assumenda veniam. Ad voluptate, reprehenderit non veritatis
+        </p>
+      </div>
+      <!-- image div-->
+      <div class="img">
+        <img src="/img/section.jpeg">
+      </div>
+    </div>
+  </div>
+
+  <!-- necessary to fill -->
+  <!-- CONTACT SECTION -->
+  <div id="contact" class="section">
+    <h4>Contact</h4>
+    <div class="what">
+      <form action="/html/formResp.html">
+        <!-- name -->
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname">
+        <br><br><br>
+        <!-- gender div-->
+        <div class="gender">
+          <span class="gender">Gender</span>
+          <div>
+            <input name="gender" type="radio" id="m">
+            <label for="m">male</label>
+          </div>
+          <div>
+            <input name="gender" type="radio" id="f">
+            <label for="f">female</label>
+          </div>
+          <div>
+            <input name="gender" type="radio" id="o">
+            <label for="o">others</label>
+          </div>
+        </div>
+        <!-- gender close -->
+        <br><br>
+        <!-- address -->
+        <label for="country">Address</label>
+        <select name="Address" id="country">
+          <option value="country">Nepal</option>
+          <option value="country">Korea</option>
+          <option value="country">China</option>
+          <option value="country">Australia</option>
+          <option value="country">America</option>
+        </select>
+        <br><br>
+        <!-- age -->
+        <!-- limit -->
+        <label for="age">Age</label>
+        <input type="number" id="age">
+        <br><br>
+        <!-- date of birth -->
+        <!-- manage -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob">
+        <br><br>
+        <!-- about -->
+        <!-- reset&submit div -->
+        <div class="btn">
+          <!-- reset -->
+          <input type="reset">
+          <!-- submit -->
+          <input type="submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <li><a>&copy;copyright</a></li>
+    <ul>
+      <li><a href="https://www.facebook.com/PAkhrin.13"><i class='bx bxl-facebook-circle'></i></a></li>
+      <li><a
+          href="https://www.instagram.com/sujanpakhrin123/?fbclid=IwY2xjawFaVIRleHRuA2FlbQIxMAABHRGK9mF465fo9rvMY9twFYHwKV7VjYwnxttQxthrT1oAoxrOfLNus48-CA_aem_2OlpsCuX2yhviQ2T0vSNGQ"><i
+            class='bx bxl-instagram'></i></a></li>
+      <li><a href="https://www.whatsapp.com/about"><i class='bx bxl-whatsapp'></i></a></li>
+      <li><a href="https://x.com/?lang=en"><i class='bx bxl-twitter'></i></a></li>
+    </ul>
+    <li><a href="#"><i class='bx bxs-to-top'></i></a></li>
+  </footer>
+  <!-- Video play/pause JS -->
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "<i class='bx bx-pause' ></i>";
+      } else {
+        video.pause();
+        btn.innerHTML = "<i class='bx bx-play' ></i>";
+      }
+    }
+
+  </script>
+</body>
+
+</html>

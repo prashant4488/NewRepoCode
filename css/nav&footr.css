@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.4vh;
+}
+
+/* NAVBAR */
+nav {
+  background-color: rgb(255, 255, 255);
+  padding: 5vh 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  font-weight: bold;
+  color: black;
+}
+
+nav a:hover {
+  color: grey;
+}
+
+nav .dropdown .dropdown-list {
+  display: none;
+  width: 40%;
+  padding: 20px 0;
+}
+
+nav .dropdown .dropdown-list li {
+  padding: 10px 0 0 0;
+}
+
+nav .dropdown .dropdown-list .drop-flex a:hover,
+.drop-flex2N a:hover {
+  color: black;
+}
+
+.drop-flex a,
+.drop-flex2N a {
+  color: white;
+}
+
+nav .dropdown:hover .dropdown-list {
+  display: block;
+  position: absolute;
+  background-color: grey;
+  border: 2px solid grey;
+}
+
+nav .dropdown .dropdown-list .drop-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .feature-drop .dropdown-list .drop-flex2N div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+}
+
+/* VIDEO SECTION */
+#myVideo {
+  width: 100%;
+  height: 87vh;
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  padding: 0 0 10px 0;
+  background: rgba(255, 255, 255, 0.5);
+  animation-name: heroBg;
+  animation-timing-function: ease-in-out;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.vid-desc-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@keyframes heroBg {
+  20% {
+    background-color: white;
+  }
+
+  40% {
+    background-color: white;
+  }
+
+  60% {
+    background-color: white;
+  }
+
+  80% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.content h1 {
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 5px;
+  animation-name: heroHead;
+  animation-timing-function: ease-in-out;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes heroHead {
+  20% {
+    color: rgba(76, 0, 130, 0.555);
+  }
+
+  40% {
+    color: indigo;
+  }
+
+  60% {
+    color: rgba(165, 42, 42, 0.555);
+  }
+
+  80% {
+    color: brown;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.content .vid-desc-flex .para p {
+  font-size: 22px;
+  padding-top: 20px;
+  animation-name: heroHead;
+  animation-timing-function: ease-in-out;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+.content .vid-desc-flex .mobile {
+  display: none;
+}
+
+.content .vid-desc-flex .para {
+  width: 80%;
+  text-align: justify;
+}
+
+.content .vi-para-flex .btn {
+  width: 20%;
+}
+
+/* FOOTER */
+footer {
+  padding: 2.5vh 0;
+  background-color: rgba(249, 0, 0, 0.645);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+}
+
+footer>li a {
+  color: rgba(0, 0, 0, 0.562);
+  font-weight: bold;
+}
+
+.footer .leftAlign {
+  width: 80%;
+}
+
+.bxs-to-top {
+  display: inline;
+  position: fixed;
+  font-size: 40px;
+  bottom: 100px;
+  z-index: 999;
+  right: 30px;
+  color: blueviolet;
+}
+
+footer .bxl-facebook-circle,
+.bxl-instagram,
+.bxl-whatsapp,
+.bxl-twitter {
+  font-size: 25px;
+  color: #14171a;
+}

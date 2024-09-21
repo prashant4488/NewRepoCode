@@ -1,0 +1,62 @@
+@media only screen and (max-width: 800px) {
+  .flex {
+    flex-direction: column-reverse;
+  }
+
+  #myVideo {
+    object-fit: fill;
+  }
+
+  .content {
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .content h1 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+
+  .content .vid-desc-flex .laptop {
+    display: none;
+  }
+
+  .content .vid-desc-flex .mobile {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .section .flex .laptop-hideBr {
+    display: block;
+  }
+
+  .section .flex .para,
+  .section .flex .img {
+    width: 90%;
+    display: block;
+    padding: 0 15px;
+  }
+
+  #about .img {
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+
+  #about .img img {
+    border-radius: 50%;
+  }
+
+  form .gender div {
+    padding: 15px 0 0 0;
+  }
+
+  form .gender {
+    flex-direction: column;
+  }
+}
